@@ -1,0 +1,14 @@
+database is an organized collection of data or a type of data store based on the use of a database management system DBMS
+Type pf databases :
+1 noSQl:
+    Document-based, key-value, column-family, or graph-based
+    Flexible schema
+    Horizontally scalable
+    Better for large-scale data and fast read/write operations
+
+
+2 SQl(Relational databases)
+    Tables with rows and columns
+    Fixed schema (predefined structure)
+    Vertically scalable
+    Efficient for complex queries and transactions
