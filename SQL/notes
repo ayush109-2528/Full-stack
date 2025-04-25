@@ -12,3 +12,50 @@ Type pf databases :
     Fixed schema (predefined structure)
     Vertically scalable
     Efficient for complex queries and transactions
+
+
+create table:
+        create table product {
+        id int NOT NULL,
+        name String,
+        price Money,
+        primary key (id)
+    }
+
+Insert data:
+    Insert into product values(1,"pen", 1.20)
+    Insert into product values(1,"pen")
+
+read :
+    select * from  product
+
+select:
+    select "column"  from table where (condition) column >= column 2
+
+UPDATE: UPDATE command is a Data Manipulation Language command that performs on the data level and is used to update the details of a table. ------
+    update table(product)
+    SET price =0.4
+    where price = 0.8
+
+ALTER : Data Definition Language command that operates on the structure level and is used to add, remove, and change the details of the tables in a database.------------
+
+    alter TABLE "tablename"(product)
+    add stock INt
+    after this we add values using update method
+    update product
+    set stock = 50
+    where id = 1;
+
+Delete :
+    Delete from table name
+    where id = 2 
+
+Relationships in SQl
+    create table custumer (custumerid int ,
+    id int ,  quantity
+    , primary KEy(id)
+    foreign key(custumerid) references product(id) )
+joins:
+    select orders.orderid , custumer.firstname,  custumer.lastName
+    from orders
+    inner join custumerid on  orders.orderid = custumerid
