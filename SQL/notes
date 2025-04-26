@@ -6,7 +6,6 @@ Type pf databases :
     Horizontally scalable
     Better for large-scale data and fast read/write operations
 
-
 2 SQl(Relational databases)
     Tables with rows and columns
     Fixed schema (predefined structure)
@@ -54,6 +53,7 @@ Relationships in SQl
     id int ,  quantity
     , primary KEy(id)
     foreign key(custumerid) references product(id) )
+
 joins:
     select orders.orderid , custumer.firstname,  custumer.lastName
     from orders

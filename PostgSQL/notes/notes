@@ -1,0 +1,17 @@
+What is CHAR data type? 
+The CHAR data type is used to store fixed-length strings. It is represented as ‘CHAR(n)’ or ‘CHARACTER(n)’ in PostgreSQL, where n specifies the length of the string. If ‘n’ is not provided, 
+it defaults to ‘CHAR(1)’. The CHAR data type pads the stored value with spaces if the input is shorter than the defined length.
+
+What is VARCHAR data type? 
+This data type is used to store characters of limited length. It is represented as varchar(n) in PostgreSQL, where n represents the limit of the length of the characters. 
+If n is not specified it defaults to varchar which has unlimited length. Unlike ‘CHAR‘, ‘VARCHAR‘ does not pad stored values with extra spaces.
+
+What is TEXT data type? 
+This data type is used to store characters of unlimited length. It is represented as text in PostgreSQL. The performance of the varchar (without n) and text are the same.  There is no specific length restriction, making it suitable for storing large text blocks like articles, descriptions, or logs.
+
+sql create table:
+    create table{tablename}(
+        field1 datatype
+        field2 datatype
+        field3  datatype
+    );
