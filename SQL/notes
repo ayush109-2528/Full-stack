@@ -13,7 +13,6 @@ Type pf databases :
     Vertically scalable
     Efficient for complex queries and transactions
 
-
 create table:
         create table product {
         id int NOT NULL,
