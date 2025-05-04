@@ -26,7 +26,7 @@ let users = [
 
 async function checkVisisted() {
   const result = await db.query(
-    "SELECT country_code FROM visited_countries join users on users.id = user_id where user_id = $1;",
+    "SELECT country_code FROM visited_countries join users on users.id = user_id where user_id = $1; ",
     [currentUserId]
   );
   let countries = [];
@@ -42,11 +42,12 @@ async function getcurrentUser() {
 }
 app.get("/", async (req, res) => {
   const countries = await checkVisisted();
+  const currentUser = await getcurrentUser();
   res.render("index.ejs", {
     countries: countries,
     total: countries.length,
     users: users,
-    color: "teal",
+    color: currentUser.color,
   });
 });
 app.post("/add", async (req, res) => {
@@ -62,7 +63,7 @@ app.post("/add", async (req, res) => {
     const countryCode = data.country_code;
     try {
       await db.query(
-        "INSERT INTO visited_countries (country_code, user_id) VALUES ($1 , $2)",
+        "INSERT INTO visited_countries (country_code, user_id) VALUES ($1, $2)",
         [countryCode, currentUserId]
       );
       res.redirect("/");
@@ -74,7 +75,7 @@ app.post("/add", async (req, res) => {
   }
 });
 app.post("/user", async (req, res) => {
-  if (req.body.add == "new") {
+  if (req.body.add === "new") {
     res.render("new.ejs");
   } else {
     currentUserId = req.body.user;
@@ -88,7 +89,7 @@ app.post("/new", async (req, res) => {
   const name = req.body.name;
   const color = req.body.color;
   const result = await db.query(
-    "insert into users (name , color) values($1 , $2) returning *;",
+    "insert into users (name , color) values($1 , $2) RETURNING *;",
     [name, color]
   );
   const id = result.rows[0].id;
