@@ -15,3 +15,9 @@ sql create table:
         field2 datatype
         field3  datatype
     );
+
+alter table - add , delete change schema of table 
+    ALTER TABLE <TABLE NAME>
+        ADD email TEXT
+
+drop ---  delete table from databases
