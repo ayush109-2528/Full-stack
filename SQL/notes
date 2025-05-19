@@ -58,3 +58,5 @@ joins:
     select orders.orderid , custumer.firstname,  custumer.lastName
     from orders
     inner join custumerid on  orders.orderid = custumerid
+
+    npm create vite@latest javascript-expressions -- --template react
