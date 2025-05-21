@@ -59,4 +59,4 @@ joins:
     from orders
     inner join custumerid on  orders.orderid = custumerid
 
-    npm create vite@latest javascript-expressions -- --template react
+npm create vite@latest javascript-expressions -- --template react
