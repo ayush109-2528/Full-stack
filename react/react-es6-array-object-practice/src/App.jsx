@@ -1,35 +1,38 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
+import cars from "./assets/practice";
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const [honda, tesla] = cars;
+  const {
+    speedStats: { topSpeed: hondaTopSpeed },
+  } = honda;
+  const {
+    speedStats: { topSpeed: teslaTopSpeed },
+  } = tesla;
+  const {coloursByPopularity:[hondaTopColour]}= honda;
+  const {coloursByPopularity:[teslaTopColour]}= tesla;
+  // console.log(model);
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <table>
+        <tr>
+          <th>Brand</th>
+          <th>Top Speed</th>
+        </tr>
+        <tr>
+          <td>{tesla.model}</td>
+          <td>{teslaTopSpeed}</td>
+          <td>{teslaTopColour}</td>
+        </tr>
+        <tr>
+          <td>{honda.model}</td>
+          <td>{hondaTopSpeed}</td>
+          <td>{hondaTopColour}</td>
+        </tr>
+      </table>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
