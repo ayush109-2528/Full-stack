@@ -26,7 +26,7 @@ function App() {
         };
       } else if (name === "lName") {
         return {
-          FName: prevValue.fName,
+          fName: prevValue.fName,
           lName: value,
         };
       }
