@@ -17,8 +17,12 @@ function App() {
     });
     setInputText("");
   }
-  function deleteitem(){
-    setItems
+  function deleteitem(id) {
+    setItems((prevItems) => {
+      return prevItems.filter((item, index) => {
+        return index !== id;
+      });
+    });
   }
 
   return (
@@ -34,13 +38,17 @@ function App() {
           </button>
         </div>
         <div>
-      <ul>
-        {items.map((todoItem) => (
-          <TodoItem text={todoItem}
-          onChecked = {deleteitem}/>
-        ))}
-      </ul>
-    </div>
+          <ul>
+            {items.map((todoItem, index) => (
+              <TodoItem
+                key={index}
+                id={index}
+                text={todoItem}
+                onChecked={deleteitem}
+              />
+            ))}
+          </ul>
+        </div>
       </div>
     </>
   );
