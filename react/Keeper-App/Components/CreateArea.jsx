@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
+
 function CreateArea(props) {
   const [inputText, setinputText] = useState({
     title: "",
