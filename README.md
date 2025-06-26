@@ -1,3 +1,9 @@
+Full-Stack Web Development Bootcamp (Udemy) – Certificate Completion
+
+This repository documents my journey and hands-on projects while completing the Complete 2024 Web Development Bootcamp by Dr. Angela Yu on Udemy.
+
+🕒 Course Duration: 61.5 hours🧠 Time Taken: Extended with additional time for practice and building projects
+
 # Web Authentication Project
 
 This project is part of my Full Stack Web Development learning journey. It focuses on implementing secure user authentication using **Node.js**, **Express.js**, and **PostgreSQL**, along with **Google OAuth** integration.
@@ -34,6 +40,67 @@ git clone https://github.com/your-username/web-authentication-project.git
 cd web-authentication-project
 npm install
 ```
+
+
+Visit http://localhost:3000 in your browser.
+📂 Projects Built
+
+📝 To-Do List App
+
+Tech: Node.js, Express.js, EJS, PostgreSQL
+
+Features: Add/delete tasks, database integration, custom routes
+
+📃 Blog Website
+
+Tech: Node.js, Express.js, EJS, PostgreSQL
+
+Features: CRUD operations, dynamic routing, rich content posts
+
+🔐 Authentication System
+
+Tech: Node.js, Express.js, Passport.js, bcrypt, PostgreSQL
+
+Features: User registration, login, logout, Google OAuth
+
+🗒️ Keeper App (React)
+
+Tech: React.js, JSX, useState, styling
+
+Features: Add/remove notes, component-based structure
+
+🧪 Mini Projects
+
+Styling practice, React conditional rendering, data mapping, ES6 modules
+
+Basic API integrations and DOM projects
+
+Each project is available in its own GitHub repository or in subfolders of this repository.
+
+🛠️ How to Use This Repository
+
+Prerequisites
+
+Node.js and npm installed
+
+PostgreSQL installed and running (for backend projects)
+
+React (for frontend React projects)
+
+Clone the Repository
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+Install Dependencies
+
+For backend projects:
+npm install
+
+For frontend React projects:
+cd project-folder
+npm install
+npm start
+
 Environment Variables
 
 Create a .env file in the root directory:
@@ -60,11 +127,18 @@ Run the App
 
 npm start
 
-Visit http://localhost:3000 in your browser.
-📸 Screenshots
+📜 Certificate
 
-    (Add screenshots here of registration, login, and Google sign-in.)
+Course: The Complete 2024 Web Development BootcampInstructor: Dr. Angela YuPlatform: Udemy📎 Certificate available in this repo or on request
 
-📚 Learning Source
+🔗 Useful Links
 
-Based on concepts from the Full Stack Web Development course on Udemy.
+📁 GitHub Portfolio: [Insert your GitHub profile link here]
+
+🌐 LinkedIn: [Insert your LinkedIn profile link here]
+
+🧾 Certificate Link (optional): [Insert certificate URL if hosted publicly]
+
+🚀 What's Next?
+
+I’m now open to fresher opportunities in Web Development, ready to apply what I’ve learned and continue growing through real-world experience.
