@@ -91,29 +91,29 @@ Clone the Repository
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 
-Install Dependencies
+**Install Dependencies
 
 For backend projects:
-npm install
+**npm install
 
 For frontend React projects:
-cd project-folder
-npm install
-npm start
+**cd project-folder
+**npm install
+**npm start
 
 Environment Variables
 
 Create a .env file in the root directory:
 
-PORT=3000
-DB_USER=your_pg_username
-DB_HOST=localhost
-DB_DATABASE=your_database_name
-DB_PASSWORD=your_pg_password
-DB_PORT=5432
-SESSION_SECRET=your_secret_key
-GOOGLE_CLIENT_ID=your_google_client_id
-GOOGLE_CLIENT_SECRET=your_google_client_secret
+**PORT=3000
+**DB_USER=your_pg_username
+**DB_HOST=localhost
+**DB_DATABASE=your_database_name
+**DB_PASSWORD=your_pg_password
+**DB_PORT=5432
+**SESSION_SECRET=your_secret_key
+**GOOGLE_CLIENT_ID=your_google_client_id
+**GOOGLE_CLIENT_SECRET=your_google_client_secret
 
 Database Setup
 
@@ -125,7 +125,7 @@ Database Setup
 
 Run the App
 
-npm start
+**npm start
 
 📜 Certificate
 
@@ -135,9 +135,9 @@ Course: The Complete 2024 Web Development BootcampInstructor: Dr. Angela YuPlatf
 
 📁 GitHub Portfolio: [Insert your GitHub profile link here]
 
-🌐 LinkedIn: [Insert your LinkedIn profile link here]
+🌐 LinkedIn: https://www.linkedin.com/in/ayushrajput2528/
 
-🧾 Certificate Link (optional): [Insert certificate URL if hosted publicly]
+🧾 Certificate Link (optional): request
 
 🚀 What's Next?
 
