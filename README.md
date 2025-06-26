@@ -146,7 +146,7 @@ Visit: [http://localhost:3000](http://localhost:3000)
 
 ## 📜 Certificate
 
-**Course**: The Complete 2024 Web Development Bootcamp
+**Course**: The Complete 2025 Web Development Bootcamp
 **Instructor**: Dr. Angela Yu
 **Platform**: Udemy
 📎 *Certificate available in this repo or on request*
@@ -155,7 +155,6 @@ Visit: [http://localhost:3000](http://localhost:3000)
 
 ## 🔗 Useful Links
 
-* 📁 GitHub Portfolio: \[Insert your GitHub profile link here]
 * 🌐 LinkedIn: [https://www.linkedin.com/in/ayushrajput2528/](https://www.linkedin.com/in/ayushrajput2528/)
 * 🧾 Certificate Link: *Available on request*
 
