@@ -3,7 +3,7 @@ const projects = [
   {
     id: 1,
     title: "AQI Prediction",
-    description: "AQI Prediction using machine learning using various classification model train model then finding average accuracy of model",
+    description: "Designed and implemented a machine learning model to forecast India’s Air Quality Index using historical environmental data. This project transforms raw data into interactive, easy-to-understand visual insights, helping raise awareness about pollution levels and promoting informed decision-making for healthier living.",
     image: "/projects/project1.png",
     tags: ["Python", "AI/ML", "Jupyter Notebool"],
     demoUrl: "#",
@@ -21,13 +21,33 @@ const projects = [
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "E-commerce site",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "Built a fully responsive online flower shop using only HTML, CSS, and JavaScript, focusing on simplicity, speed, and user-friendly design. The site features beautiful product displays, category-based browsing, and an interactive cart system without relying on external frameworks. Designed with clean layouts, smooth animations, and optimized performance to provide an enjoyable and seamless shopping experience.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["HTML", "JavaScript", "CSS"],
+    demoUrl: "https://ayush109-2528.github.io/ecommerce-site/",
+    githubUrl: "https://github.com/ayush109-2528/ecommerce-site",
+  },
+  {
+    id: 4,
+    title: "Weather Report",
+    description:
+      "Designed and developed a personal portfolio website using HTML, CSS, and JavaScript to showcase my projects, skills, and achievements. The site features a clean, responsive design for seamless viewing across devices, smooth navigation, and interactive elements to engage visitors. Built to reflect my creativity and technical abilities, the portfolio serves as a central hub for recruiters and collaborators to connect with me.",
+    image: "/projects/project4.png",
+    tags: ["HTML", "JavaScript", "CSS","API"],
+    demoUrl: "https://ayush109-2528.github.io/weather-report/",
+    githubUrl: "https://github.com/ayush109-2528/weather-report",
+  },
+  {
+    id: 5,
+    title: "Keeper App",
+    description:
+      "A simple and intuitive note-taking web application built using HTML, CSS, and JavaScript. Designed to let users quickly add, view, and delete notes, the Keeper App focuses on a clean interface and smooth user experience. It’s lightweight, responsive, and perfect for organizing thoughts, to-dos, and reminders in one place.",
+    image: "/projects/project5.png",
+    tags: ["React", "Node.js", "HTML/CSS", "Express"],
+    demoUrl: "",
+    githubUrl: "https://github.com/ayush109-2528/Full-stack/tree/main/react/Keeper-App",
   },
 ];
 
