@@ -6,7 +6,7 @@ const projects = [
     description: "Designed and implemented a machine learning model to forecast India’s Air Quality Index using historical environmental data. This project transforms raw data into interactive, easy-to-understand visual insights, helping raise awareness about pollution levels and promoting informed decision-making for healthier living.",
     image: "/projects/project1.png",
     tags: ["Python", "AI/ML", "Jupyter Notebool"],
-    demoUrl: "#",
+    demoUrl: "https://github.com/ayush109-2528/AQI_prediction",
     githubUrl: "https://github.com/ayush109-2528/AQI_prediction",
   },
   {
@@ -16,7 +16,7 @@ const projects = [
       "Learned React, Node.js, Express, MongoDB, and Tailwind CSS by building real-world projects with authentication, security, and deployment.",
     image: "/projects/project2.png",
     tags: ["React","HTML/CSS","JavaScript", "Node.js", "Express.js","JQuery","PostgSQl","SQL",],
-    demoUrl: "#",
+    demoUrl: "https://github.com/ayush109-2528/Full-stack",
     githubUrl: "https://github.com/ayush109-2528/Full-stack",
   },
   {
@@ -46,7 +46,7 @@ const projects = [
       "A simple and intuitive note-taking web application built using HTML, CSS, and JavaScript. Designed to let users quickly add, view, and delete notes, the Keeper App focuses on a clean interface and smooth user experience. It’s lightweight, responsive, and perfect for organizing thoughts, to-dos, and reminders in one place.",
     image: "/projects/project5.png",
     tags: ["React", "Node.js", "HTML/CSS", "Express"],
-    demoUrl: "",
+    demoUrl: "https://github.com/ayush109-2528/Full-stack/tree/main/react/Keeper-App",
     githubUrl: "https://github.com/ayush109-2528/Full-stack/tree/main/react/Keeper-App",
   },
 ];
