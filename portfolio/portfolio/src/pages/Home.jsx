@@ -28,6 +28,7 @@ export const Home = () => {
       </main>
 
       {/* Footer */}
+      
       <arrow />
     </div>
   );
